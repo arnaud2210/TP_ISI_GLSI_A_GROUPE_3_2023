@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BANK_SERVICES_API/BANK_SERVICES_API/BANK_SERVICES_API.iml" filepath="$PROJECT_DIR$/BANK_SERVICES_API/BANK_SERVICES_API/BANK_SERVICES_API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TP_ISI_GLSI_A_GROUPE_7_2023.iml" filepath="$PROJECT_DIR$/.idea/TP_ISI_GLSI_A_GROUPE_7_2023.iml" />
+    </modules>
+  </component>
+</project>
