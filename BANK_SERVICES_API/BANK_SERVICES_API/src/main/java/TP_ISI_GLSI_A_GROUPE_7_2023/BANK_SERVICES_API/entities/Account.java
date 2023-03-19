@@ -1,10 +1,7 @@
 package TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.entities;
 
 import TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.enums.TypeCompte;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -28,6 +25,6 @@ public class Account {
     private Double accountBalance;
 
     @ManyToOne
-    @Column(name = "proprietaire",nullable = false)
+    @JoinColumn(name = "proprietaire",nullable = false)
     private Client owner;
 }
