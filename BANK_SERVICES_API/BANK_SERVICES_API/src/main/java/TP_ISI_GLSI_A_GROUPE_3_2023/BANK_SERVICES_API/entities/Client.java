@@ -1,6 +1,6 @@
-package TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.entities;
+package TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.entities;
 
-import TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.enums.Sexe;
+import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.enums.Sexe;
 import jakarta.persistence.*;
 import lombok.*;
 
