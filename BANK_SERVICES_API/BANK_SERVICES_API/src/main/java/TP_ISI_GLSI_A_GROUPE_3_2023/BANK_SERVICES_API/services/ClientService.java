@@ -1,7 +1,7 @@
-package TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.services;
+package TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.services;
 
-import TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.entities.Client;
-import TP_ISI_GLSI_A_GROUPE_7_2023.BANK_SERVICES_API.repositories.ClientRepository;
+import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.entities.Client;
+import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
