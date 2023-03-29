@@ -27,9 +27,9 @@ public class Client {
     private Sexe sexe;
     @Column(name = "adresse_du_client")
     private String address;
-    @Column(name = "telephone_du_client")
+    @Column(name = "telephone_du_client", unique = true)
     private String telephone;
-    @Column(name = "email_du_client")
+    @Column(name = "email_du_client", unique = true)
     private String email;
     @Column(name = "nationalite_du_client",nullable = false)
     private String nationality;

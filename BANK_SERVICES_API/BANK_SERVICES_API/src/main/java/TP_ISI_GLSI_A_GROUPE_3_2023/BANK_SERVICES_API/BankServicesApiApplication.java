@@ -43,12 +43,12 @@ public class BankServicesApiApplication {
 											null,
 											"BAGNA",
 											"Tarik",
-											new Date(2003,06,12),
+											new Date(2003-1900,06,12),
 											Sexe.MASCULIN,
-											"Addidogomé",
+											"Adidogomé",
 											"70433738",
 											"tarikbagnapro@gmail.com",
-											"Togolese")
+											"Togolaise")
 							)
 					)
 			);
@@ -63,12 +63,12 @@ public class BankServicesApiApplication {
 											null,
 											"BAGNA",
 											"Khaled",
-											new Date(183,1,12),
+											new Date(2002-1900,1,12),
 											Sexe.MASCULIN,
 											"Tokoin",
 											"72366696",
 											"khaledbagnapro@gmail.com",
-											"Togolese")
+											"Togolaise")
 							)
 					)
 			);
