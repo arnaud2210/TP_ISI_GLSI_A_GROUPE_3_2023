@@ -1,12 +1,9 @@
 package TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.api;
 
 import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.entities.Account;
-import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.entities.Client;
 import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.services.AccountService;
-import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.services.ClientService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -37,5 +34,9 @@ public class AccountController {
         accountService.removeAccount(accountNumber);
     }
 
+    @PostMapping("/clients/{clientId}/accounts/{accountNumber}/credit/{amount}")
+    public Account makeADeposit(@PathVariable Long clientId, @PathVariable String accountNumber, @PathVariable Double amount) throws Exception {
+        return accountService.makeADeposit(clientId, accountNumber, amount);
+    }
 
 }
