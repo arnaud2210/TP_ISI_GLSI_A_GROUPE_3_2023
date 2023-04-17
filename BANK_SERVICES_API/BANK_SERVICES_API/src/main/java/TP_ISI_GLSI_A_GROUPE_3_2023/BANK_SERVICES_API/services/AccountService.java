@@ -42,6 +42,7 @@ public class AccountService {
         account.setCreationDate(LocalDate.now());
         account.setTypeCompte(accountDTO.getTypeCompte());
         account.setOwner(clientRepository.findById(accountDTO.getIdClient()).orElseThrow(() -> new Exception("Client with this id does not exist!")));
+        account.setAccountBalance(0D);
         return accountRepository.save(account);
     }
 
