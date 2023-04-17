@@ -1,5 +1,6 @@
 package TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API;
 
+import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.DTO.AccountDTO;
 import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.entities.Account;
 import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.entities.Client;
 import TP_ISI_GLSI_A_GROUPE_3_2023.BANK_SERVICES_API.enums.Sexe;
@@ -32,44 +33,46 @@ public class BankServicesApiApplication {
 	@Bean
 	CommandLineRunner start(){
 		return args -> {
+			clientRepository.save(
+					new Client(
+							null,
+							"BAGNA",
+							"Tarik",
+							LocalDate.of(2003,06,12),
+							Sexe.MASCULIN,
+							"Adidogomé",
+							"70433738",
+							"tarikbagnapro@gmail.com",
+							"Togolaise")
+			);
+			clientRepository.save(
+					new Client(
+							null,
+							"BAGNA",
+							"Khaled",
+							LocalDate.of(2002,1,12),
+							Sexe.MASCULIN,
+							"Tokoin",
+							"72366696",
+							"khaledbagnapro@gmail.com",
+							"Togolaise")
+			);
 			accountService.saveAccount(
-					new Account(
+					new AccountDTO(
 							null,
 							TypeCompte.COURANT,
 							LocalDate.now(),
 							0.0,
-							clientRepository.save(
-									new Client(
-											null,
-											"BAGNA",
-											"Tarik",
-											new Date(2003-1900,06,12),
-											Sexe.MASCULIN,
-											"Adidogomé",
-											"70433738",
-											"tarikbagnapro@gmail.com",
-											"Togolaise")
-							)
+							1L
 					)
 			);
 			accountService.saveAccount(
-					new Account(
+					new AccountDTO(
 							null,
 							TypeCompte.COURANT,
 							LocalDate.now(),
 							0.0,
-							clientRepository.save(
-									new Client(
-											null,
-											"BAGNA",
-											"Khaled",
-											new Date(2002-1900,1,12),
-											Sexe.MASCULIN,
-											"Tokoin",
-											"72366696",
-											"khaledbagnapro@gmail.com",
-											"Togolaise")
-							)
+							2L
 					)
 			);
 		};

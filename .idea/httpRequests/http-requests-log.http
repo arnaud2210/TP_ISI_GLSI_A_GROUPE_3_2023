@@ -1,0 +1,724 @@
+GET http://localhost:8081/clients/2/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T030913.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "0FD1E2023",
+  "receiverAccountNumber": "F879E2023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T030908.200.json
+
+###
+
+GET http://localhost:8081/clients/2/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T030900.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "0FD1E2023",
+  "receiverAccountNumber": "F879E2023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T030839.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "0FD1E2023",
+  "accountBalance": 8000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030819.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T030752.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "84D4E2023",
+  "receiverAccountNumber": "BCD812023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T030328.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "84D4E2023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030305.200.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "84D4E2023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030237.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "84D4E2023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030229.200.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "84D4E2023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030149.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "84D4E2023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030132.200.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "84D4E2023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T030101.500.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T030007.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "29CCC2023",
+  "receiverAccountNumber": "6E47C2023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T025512.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "29CCC2023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T025447.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T025428.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "C89122023",
+  "receiverAccountNumber": "908632023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T025003.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "C89122023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T024929.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024904.200.json
+
+###
+
+GET http://localhost:8081/clients/2/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024705.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "388942023",
+  "receiverAccountNumber": "A7E552023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T024653.200.json
+
+###
+
+GET http://localhost:8081/clients/2/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024642.200.json
+
+###
+
+GET http://localhost:8081/clients/1/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024636.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "388942023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T024623.200.json
+
+###
+
+GET http://localhost:8081/clients/2/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024552.200.json
+
+###
+
+GET http://localhost:8081/clients/2/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024549.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "388942023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T024527.200.json
+
+###
+
+GET http://localhost:8081/clients/1/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024512.200.json
+
+###
+
+GET http://localhost:8081/clients/1/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024509.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "388942023",
+  "receiverAccountNumber": "A7E552023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T024440.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "388942023",
+  "accountBalance": 4000,
+  "idClient": 1
+}
+
+<> 2023-04-17T024422.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T024335.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "696A62023",
+  "receiverAccountNumber": "B47322023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T023904.500.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "696A62023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T023846.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T023815.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeATransfer
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "senderAccountNumber": "734B62023",
+  "receiverAccountNumber": "1CCF12023",
+  "senderIdClient": 1,
+  "receiverIdClient": 2,
+  "amount": 2000
+}
+
+<> 2023-04-17T023614.500.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T023545.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T023541.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "734B62023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T023455.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "734B62023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T023454.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "734B62023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T023447.200.json
+
+###
+
+GET http://localhost:8081/accounts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-17T023429.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T023420.500.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T021936.500.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T021932.200.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T021927.200.json
+
+###
+
+POST http://localhost:8081/accounts/withdrawMoney
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T021920.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T021846.200.json
+
+###
+
+POST http://localhost:8081/accounts/makeADeposit
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "accountNumber": "8BF202023",
+  "accountBalance": 2000,
+  "idClient": 1
+}
+
+<> 2023-04-17T021843.200.json
+
+###
+

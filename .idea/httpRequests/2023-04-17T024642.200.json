@@ -1,0 +1,19 @@
+[
+  {
+    "accountNumber": "A7E552023",
+    "typeCompte": "COURANT",
+    "creationDate": "2023-04-17",
+    "accountBalance": 0.0,
+    "owner": {
+      "id": 2,
+      "lastname": "BAGNA",
+      "firstname": "Khaled",
+      "dateOfBirth": "2002-01-12",
+      "sexe": "MASCULIN",
+      "address": "Tokoin",
+      "telephone": "72366696",
+      "email": "khaledbagnapro@gmail.com",
+      "nationality": "Togolaise"
+    }
+  }
+]
