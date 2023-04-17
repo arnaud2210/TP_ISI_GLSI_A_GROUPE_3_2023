@@ -1,0 +1,19 @@
+[
+  {
+    "accountNumber": "388942023",
+    "typeCompte": "COURANT",
+    "creationDate": "2023-04-17",
+    "accountBalance": 0.0,
+    "owner": {
+      "id": 1,
+      "lastname": "BAGNA",
+      "firstname": "Tarik",
+      "dateOfBirth": "2003-06-12",
+      "sexe": "MASCULIN",
+      "address": "Adidogomé",
+      "telephone": "70433738",
+      "email": "tarikbagnapro@gmail.com",
+      "nationality": "Togolaise"
+    }
+  }
+]
